@@ -4,9 +4,17 @@
   top: 0;
   width: 100%;
 }
-.img_class {
+img {
   width: 100%;
-  height: 100%;
+  height: 800px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.videoclass {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  object-position: bottom;
 }
 @media screen and (max-width: 800px) {
   .myclass {
